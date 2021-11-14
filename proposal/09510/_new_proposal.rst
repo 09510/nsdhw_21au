@@ -11,7 +11,7 @@ Code repository: https://github.com/09510/Encryption-Acceleration
 Problem to solve
 =======================
 
-Decision tree is a good method for data analysis and feature evaluation.
+Decision tree is a good method for data analysis and feature analysis.
 We usually want to build a large number of trees/forests to analyze various feature or to achieve higher accuracy.
 However, there are a lot of sorting operations in the process of building a tree/forest.
 This tool allows you to build a decision tree faster with SIMD.
