@@ -11,7 +11,7 @@ Problem to solve
 =======================
 Decision tree is a good method for data analysis and feature analysis.
 We usually want to build a large number of trees/forests to analyze various feature or to achieve higher accuracy.
-However, there are a lot of data access in the process of building a tree/forest.(for example, row access for sort operations, column access for threshold search.)
+However, there are a lot of data access in the process of building a tree/forest. (For example, keep accessing a 400*30 array to do sort operation and to select best threshold.)
 This tool allows you to build a decision tree faster by C++.
 I have hand-craved the the decision tree building with python in the past. So this project (c++ version) will be compared the speed with python version.
 
